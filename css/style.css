@@ -1,26 +1,156 @@
 :root {
     --accent-color: #2196F3;
-
-    --header-logo-text-color: #000000;
-    --header-first-text-color:#212121;
-    --header-tel-mail-text-color: #757575;
-
-    --main-title-color: #ffffff;
-    --second-title-color: #212121;
-    --first-text-color: #212121;
-    --second-text-color: #757575;
-    --comand-first-text-color: #212121;
-    --comand-second-text-color: #757575;
-
-    --footer-logo-text-color: #ffffff;
-    --footer-nav-text-color: #ffffff;
+    --primary-color: #757575;
+    --header-logo-color: #000000;
+    --main-title-color:#212121;
+    --hero-title-color: #ffffff;
     --footer-tel-mail-text-color: rgba(255, 255, 255, 0,6);
 
-    --first-button-color: #ffffff;
-    --second-button-color: #212121;
+    /* --first-button-color: #ffffff;
+    --second-button-color: #212121; */
 }
-
 body {
     font-family: "Roboto",sans-serif;
+    color: var(--primary-color);
 
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+/* -------------------header--------------------------- */
+.header-logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.09;
+    letter-spacing: 0.03em;
+    color: var(--header-logo-color);
+}
+.header-logo-first {
+    color: var(--accent-color);
+}
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--header-logo-color);
+}
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
+.header-inf-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--header-tel-mail-text-color);
+}
+.header-inf-link:hover,
+.header-inf-link:focus {
+    color: var(--accent-color);
+}
+
+/* -------------------hero--------------------------- */
+.hero-title {
+    background-color: var(--main-title-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+     text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--hero-title-color);
+}
+.hero-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--hero-title-color);
+}
+/* -------------------about--------------------------- */
+.about-item-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-title-color);    
+}
+.about-item-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+/* -------------------work--------------------------- */
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+}
+/* -------------------comand--------------------------- */
+.comand-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+}
+.comand-item-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+}
+.comand-item-work {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+/* -------------------footer--------------------------- */
+.footer-logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--header-logo-color);
+}
+.footer-logo-first{
+    color: var(--accent-color);
+}
+.footer-adress-nav-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--hero-title-color);
+}
+.footer-adress-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-tel-mail-text-color);
 }
