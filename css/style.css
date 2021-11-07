@@ -6,8 +6,6 @@
     --hero-title-color: #ffffff;
     --footer-tel-mail-text-color: rgba(255, 255, 255, 0,6);
 
-    /* --first-button-color: #ffffff;
-    --second-button-color: #212121; */
 }
 body {
     font-family: "Roboto",sans-serif;
@@ -34,6 +32,9 @@ body {
     margin: -1px;
 }
 
+.header-list .header-link.current {
+    color: var(--accent-color);
+}
 
 /* -------------------header--------------------------- */
 .header-logo {
@@ -91,6 +92,8 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--hero-title-color);
+
+    cursor: pointer;
 }
 /* -------------------about--------------------------- */
 .about-item-title {
@@ -168,4 +171,38 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--footer-tel-mail-text-color);
+}
+
+
+/* -------------------PORTFOLIO.HTML--------------------------- */
+
+.filter-btn {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--main-title-color);
+    cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--hero-title-color);
+}
+.filter-container-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-title-color);
+}
+.filter-container-after-title {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
 }
