@@ -64,7 +64,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--header-tel-mail-text-color);
+    color: var(--primary-color);
 }
 .header-inf-link:hover,
 .header-inf-link:focus {
@@ -83,6 +83,7 @@ body {
     color: var(--hero-title-color);
 }
 .hero-btn {
+    font-style: normal;
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -120,6 +121,7 @@ body {
 }
 /* -------------------comand--------------------------- */
 .comand-title {
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
